@@ -1,0 +1,52 @@
+@font-face {
+  src:
+  url('../fonts/OpenSans-Regular.woff') format('woff'),
+  url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+  url('../fonts/OpenSans-Regular.eot') format('eot'),
+  url('../fonts/OpenSans-Regular.ttf') format('ttf');
+  font-family: 'OpenSans';
+  font-weight: 400;
+}
+
+@font-face {
+  src:
+  url('../fonts/OpenSans-Italic.woff') format('woff'),
+  url('../fonts/OpenSans-Italic.woff2') format('woff2'),
+  url('../fonts/OpenSans-Italic.eot') format('eot'),
+  url('../fonts/OpenSans-Italic.ttf') format('ttf');
+  font-family: 'OpenSans';
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  src:
+  url('../fonts/OpenSans-LightItalic.woff') format('woff'),
+  url('../fonts/OpenSans-LightItalic.woff2') format('woff2'),
+  url('../fonts/OpenSans-LightItalic.eot') format('eot'),
+  url('../fonts/OpenSans-LightItalic.ttf') format('ttf');
+  font-family: 'OpenSans';
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  src:
+  url('../fonts/OpenSans-Medium.woff') format('woff'),
+  url('../fontsOpenSans-Medium.woff2') format('woff2'),
+  url('../fonts/OpenSans-Medium.eot') format('eot'),
+  url('../fonts/OpenSans-Medium.ttf') format('ttf');
+  font-family: 'OpenSans';
+  font-weight: 500;
+}
+
+@font-face {
+  src:
+  url('../fonts/NewStandardTT-Regular.woff') format('woff'),
+  url('../fonts/NewStandardTT-Regular.woff2') format('woff2'),
+  url('../fonts/NewStandardTT-Regular.eot') format('eot'),
+  url('../fonts/NewStandardTT-Regular.ttf') format('ttf');
+  font-family: 'NewStandardTT';
+  font-weight: 400;
+}
+
