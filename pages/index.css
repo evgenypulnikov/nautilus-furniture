@@ -16,6 +16,10 @@
 .page {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   background-color: #e9e7e7;
+  background-image: url('../images/intro-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
 }
 
 .container {
@@ -333,7 +337,7 @@
 
 .footer__icon {
   width: 24px;
-  height: 24px;
+  height: 19px;
   fill: #ffffff;
 }
 
