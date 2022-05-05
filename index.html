@@ -12,8 +12,8 @@
     <nav class="header__nav">
       <ul class="header__nav-list">
         <li class="header__nav-item"><a href="#!" class="header__nav-link header__nav-link_is_active page-link">Главная</a></li>
-        <li class="header__nav-item"><a href="#!" class="header__nav-link page-link">Наши работы</a></li>
-        <li class="header__nav-item"><a href="#!" class="header__nav-link page-link">Контакты</a></li>
+        <li class="header__nav-item"><a href="#photo-grid" class="header__nav-link page-link">Наши работы</a></li>
+        <li class="header__nav-item"><a href="#footer" class="header__nav-link page-link">Контакты</a></li>
       </ul>
     </nav>
     <a href="#!" class="header__logo page-link"><img src="./images/logo.svg" alt="Наутилус Мебель" class="header__logo-img"></a>
@@ -25,7 +25,7 @@
           <h1 class="intro__title">Корпусная мебель</h1>
           <h2 class="intro__underline">На заказ в Тюмени</h2>
           <p class="intro__description">Кухни, шкафы-купе, гардеробные, тумбы, детская мебель, инсталляции, детали&nbsp;мебели</p>
-          <a href="#!" class="intro__button">Связаться с нами</a>
+          <a href="#footer" class="intro__button">Связаться с нами</a>
         </div>
         <img src="./images/intro.jpg" alt="Тумба с электрокамином нашего изготовления" class="intro__image">
       </div>
@@ -42,7 +42,7 @@
         </ul>
       </div>
     </section>
-    <section class="photo-grid">
+    <section class="photo-grid" id="photo-grid">
       <div class="photo-grid__container container">
         <h2 class="photo-grid__title">Наши работы</h2>
         <div class="photo-grid__row">
@@ -112,7 +112,7 @@
       </div>
     </section>
   </main>
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="footer__container container">
       <ul class="footer__info">
         <h3 class="footer__title">Контакты</h3>
@@ -120,22 +120,22 @@
           <a href="https://vk.com/nautilusmebel" class="footer__link">
             <svg class="footer__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
               <path class="footer__icon" d="M31.49 63.49C0 94.982 0 145.672 0 247.04v17.92c0 101.369 0 152.059 31.49 183.549C62.982 480 113.672 480 215.04 480h17.92c101.369 0 152.059 0 183.549-31.491C448 417.019 448 366.329 448 264.96v-17.92c0-101.369 0-152.059-31.491-183.55C385.019 32 334.329 32 232.96 32h-17.92C113.671 32 62.981 32 31.49 63.49ZM75.6 168.268h51.147c1.68 85.493 39.386 121.706 69.253 129.173V168.267h48.16V242c29.493-3.173 60.48-36.773 70.933-73.733h48.16a142.258 142.258 0 0 1-65.52 92.96 147.348 147.348 0 0 1 76.72 93.52H321.44a92.154 92.154 0 0 0-77.28-66.64v66.64h-5.787c-102.106 0-160.346-70-162.773-186.48Z"/>
-            </svg>Группа ВКонтакте</a>
+            </svg>Группа&nbsp;ВКонтакте</a>
         </li>
         <li class="footer__info-item">
           <a href="#!" class="footer__link">
             <svg class="footer__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path class="footer__icon" d="M444 49.9C431.3 38.2 379.9.9 265.3.4c0 0-135.1-8.1-200.9 52.3C27.8 89.3 14.9 143 13.5 209.5c-1.4 66.5-3.1 191.1 117 224.9h.1l-.1 51.6s-.8 20.9 13 25.1c16.6 5.2 26.4-10.7 42.3-27.8 8.7-9.4 20.7-23.2 29.8-33.7 82.2 6.9 145.3-8.9 152.5-11.2 16.6-5.4 110.5-17.4 125.7-142 15.8-128.6-7.6-209.8-49.8-246.5zM457.9 287c-12.9 104-89 110.6-103 115.1-6 1.9-61.5 15.7-131.2 11.2 0 0-52 62.7-68.2 79-5.3 5.3-11.1 4.8-11-5.7 0-6.9.4-85.7.4-85.7-.1 0-.1 0 0 0-101.8-28.2-95.8-134.3-94.7-189.8 1.1-55.5 11.6-101 42.6-131.6 55.7-50.5 170.4-43 170.4-43 96.9.4 143.3 29.6 154.1 39.4 35.7 30.6 53.9 103.8 40.6 211.1zm-139-80.8c.4 8.6-12.5 9.2-12.9.6-1.1-22-11.4-32.7-32.6-33.9-8.6-.5-7.8-13.4.7-12.9 27.9 1.5 43.4 17.5 44.8 46.2zm20.3 11.3c1-42.4-25.5-75.6-75.8-79.3-8.5-.6-7.6-13.5.9-12.9 58 4.2 88.9 44.1 87.8 92.5-.1 8.6-13.1 8.2-12.9-.3zm47 13.4c.1 8.6-12.9 8.7-12.9.1-.6-81.5-54.9-125.9-120.8-126.4-8.5-.1-8.5-12.9 0-12.9 73.7.5 133 51.4 133.7 139.2zM374.9 329v.2c-10.8 19-31 40-51.8 33.3l-.2-.3c-21.1-5.9-70.8-31.5-102.2-56.5-16.2-12.8-31-27.9-42.4-42.4-10.3-12.9-20.7-28.2-30.8-46.6-21.3-38.5-26-55.7-26-55.7-6.7-20.8 14.2-41 33.3-51.8h.2c9.2-4.8 18-3.2 23.9 3.9 0 0 12.4 14.8 17.7 22.1 5 6.8 11.7 17.7 15.2 23.8 6.1 10.9 2.3 22-3.7 26.6l-12 9.6c-6.1 4.9-5.3 14-5.3 14s17.8 67.3 84.3 84.3c0 0 9.1.8 14-5.3l9.6-12c4.6-6 15.7-9.8 26.6-3.7 14.7 8.3 33.4 21.2 45.8 32.9 7 5.7 8.6 14.4 3.8 23.6z"/>
             </svg>
-            +7 909 180 10 68</a>
-            <span class="footer__text">(Viber, звонки, СМС)</span>
+            +7&nbsp;909&nbsp;180&nbsp;10&nbsp;68</a>
+            <span class="footer__text">(Viber,&nbsp;звонки,&nbsp;СМС)</span>
         </li>
         <li class="footer__info-item">
           <a href="#!" class="footer__link">
             <svg class="footer__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path class="footer__icon" d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"/>
             </svg>
-            95 31 25</a>
+            95&nbsp;31&nbsp;25</a>
         </li>
       </ul>
       <ul class="footer__info">
@@ -144,17 +144,17 @@
           <a href="#!" class="footer__link">
             <svg class="footer__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
               <path class="footer__icon" d="M168.3 499.2C116.1 435 0 279.4 0 192 0 85.96 85.96 0 192 0c106 0 192 85.96 192 192 0 87.4-117 243-168.3 307.2-12.3 15.3-35.1 15.3-47.4 0zM192 256c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64z"/>
-            </svg>ул. 50 лет ВЛКСМ, 13 к1</a>
+            </svg>ул.&nbsp;50&nbsp;лет&nbsp;ВЛКСМ,&nbsp;13&nbsp;к1</a>
         </li>
         <li class="footer__info-item">
           <a href="#!" class="footer__link">
             <svg class="footer__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
               <path class="footer__icon" d="M168.3 499.2C116.1 435 0 279.4 0 192 0 85.96 85.96 0 192 0c106 0 192 85.96 192 192 0 87.4-117 243-168.3 307.2-12.3 15.3-35.1 15.3-47.4 0zM192 256c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64z"/>
-            </svg>ул. Камчатская 183 (3 этаж)</a>
+            </svg>ул.&nbsp;Камчатская&nbsp;183&nbsp;(3&nbsp;этаж)</a>
         </li>
       </ul>
       <iframe class="footer__map" src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa38745ca0848bcf5c5c2a2bef41eb6125be7d1499748ac3d902eea605bd8ffd7&amp;source=constructor" width="500" height="266" frameborder="0"></iframe>
-      <span class="footer__copyright">Наутилус Мебель &copy; 2022</span>
+      <span class="footer__copyright">Наутилус&nbsp;Мебель&nbsp;&copy;&nbsp;2022</span>
     </div>
   </footer>
   <div class="popup popup_full-view">
