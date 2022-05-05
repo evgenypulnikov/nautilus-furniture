@@ -60,12 +60,6 @@
   }
 }
 
-@media screen and (max-width: 479px) {
-  .header {
-    display: none;
-  }
-}
-
 .header__nav-list {
   display: flex;
   column-gap: 44px;
@@ -77,7 +71,9 @@
 
 @media screen and (max-width: 767px) {
   .header__nav-list {
+    column-gap: 18px;
     margin-top: 15px;
+    opacity: 0.9;
   }
 }
 
@@ -87,6 +83,12 @@
   font-weight: normal;
   letter-spacing: -0.2px;
   color: #3e3e3e;
+}
+
+@media screen and (max-width: 767px) {
+  .header__nav-link {
+    font-size: 16px;
+  }
 }
 
 .header__nav-link_is_active {
