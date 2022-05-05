@@ -35,30 +35,30 @@
 }
 
 .page-link:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 .header {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  padding: 19px 0;
+  padding-top: 29px;
 }
 
 .header__nav-list {
   display: flex;
-  column-gap: 25px;
+  column-gap: 44px;
   margin: 0;
   padding: 0;
   list-style: none;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .header__nav-link {
   font-family: 'Roboto';
   font-size: 19px;
   font-weight: normal;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.2px;
   color: #3e3e3e;
 }
 
@@ -159,6 +159,10 @@
 .benefits {
   padding: 85px 0 100px;
   background-color: #232323;
+  background-image: url('../images/dark-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
 }
 
 .benefits__container {
@@ -276,23 +280,30 @@
 }
 
 .photo-grid__features {
+  position: relative;
+  left: 59px;
   display: flex;
   flex-direction: column;
-  row-gap: 40px;
+  row-gap: 55px;
   grid-area: c;
   max-width: 484px;
   width: 100%;
   margin: 0;
   padding: 0;
   font-family: 'Roboto';
-  font-size: 30px;
+  font-size: 28px;
   color: #232323;
-  list-style: none;
+  list-style: decimal-leading-zero;
+}
+
+.photo-grid__feature {
+  max-width: 320px;
 }
 
 /* Footer */
 
 .footer {
+  position: relative;
   padding: 45px 0 90px;
   background-color: #232323;
 }
@@ -335,6 +346,13 @@
   opacity: 0.7;
 }
 
+.footer__text {
+  display: inline-block;
+  margin: 7px 0 0 7px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
 .footer__icon {
   width: 24px;
   height: 19px;
@@ -343,4 +361,11 @@
 
 .footer__map {
   margin-left: auto;
+}
+
+.footer__copyright {
+  position: absolute;
+  bottom: 20px;
+  color: #ffffff;
+  opacity: 0.5;
 }
