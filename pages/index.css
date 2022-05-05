@@ -18,7 +18,7 @@
   background-color: #e9e7e7;
   background-image: url('../images/intro-bg.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: inherit;
   background-position: center top;
 }
 
@@ -89,15 +89,6 @@
   .header__nav-link {
     font-size: 16px;
   }
-}
-
-.header__nav-link_is_active {
-  font-weight: 500;
-  color: #232323;
-}
-
-.header__nav-link_is_active:hover {
-  opacity: 1;
 }
 
 .header__logo-img {
