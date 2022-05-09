@@ -1,17 +1,6 @@
 @import url('../vendor/normalize.css');
 @import url('../fonts/fonts.css');
 
-/* popup */
-
-@import url('../blocks/popup/popup.css');
-@import url('../blocks/popup/_is_opened/popup_is_opened.css');
-@import url('../blocks/popup/__container/popup__container.css');
-@import url('../blocks/popup/__close-button/popup__close-button.css');
-
-/* full-view */
-
-@import url('../blocks/full-view/__image/full-view__image.css');
-@import url('../blocks/full-view/__caption/full-view__caption.css');
 
 .page {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
@@ -550,4 +539,72 @@
   bottom: 20px;
   color: #ffffff;
   opacity: 0.5;
+}
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: visibility 0.2s ease, opacity 0.2s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popup_is_opened {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup__container {
+  position: relative;
+  top: 30px;
+}
+
+.popup__close-button {
+  position: absolute;
+  top: -40px;
+  right: -31px;
+  width: 26px;
+  height: 26px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  background-image: url('../../../images/close-button-icon.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.popup__close-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.popup__close-button:not(:hover) {
+  transition: opacity 0.3s ease;
+}
+
+@media screen and (max-width: 767px) {
+
+  .popup__close-button {
+    top: -34px;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+  }
+
+}
+
+.full-view__image {
+  max-width: 75vw;
+  max-height: 75vh;
+  width: 100%;
+  object-fit: cover;
 }

@@ -33,3 +33,15 @@ const closeButton = document.querySelectorAll('.popup__close-button');
       closePopup(evt.target.closest('.popup'));
     });
 });
+
+// Smooth Scroll To Anchors
+
+document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+  anchor.addEventListener('click', function(evt) {
+    evt.preventDefault();
+
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
