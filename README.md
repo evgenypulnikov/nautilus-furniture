@@ -18,3 +18,9 @@
 https://evgenypulnikov.github.io/mesto-project/
 
 ___
+
+![image](https://user-images.githubusercontent.com/51275060/167433893-e4d85b7b-3824-4726-b597-f37800d41900.png)
+
+![image](https://user-images.githubusercontent.com/51275060/167434040-6afe159a-b1b1-4c82-8880-0027c3075301.png)
+
+![image](https://user-images.githubusercontent.com/51275060/167434249-fea6eef3-8958-409a-8da4-211dc0edc8e1.png)
