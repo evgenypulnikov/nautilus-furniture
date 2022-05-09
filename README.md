@@ -15,7 +15,7 @@
 
 **ссылка на pages:**
 
-https://evgenypulnikov.github.io/mesto-project/
+https://evgenypulnikov.github.io/nautilus-furniture/
 
 ___
 
